@@ -1,0 +1,3 @@
+admin.load(<table [defaults: getgenv().themes.dark/light]> theme, <string> projectName, <boolean> buildInCommands {
+    .addCommand({<string> name, <string> commandDescription, <function [multiple arguments]> callback
+}
