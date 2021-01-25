@@ -1,4 +1,4 @@
-local Admin = loadstring(game:HttpGet("https://pastebin.com/raw/Mwj492sT"))()
+local Admin = loadstring(game:HttpGet("https://raw.githubusercontent.com/boop71/customizable-admin/main/module.lua"))()
 local Admin2 = Admin.load(getgenv().themes.dark, "Project name here", true) 
 Admin2.addCommand({name = "testCommand",desc = "this is a command!",callback = function(v)
     local m = Instance.new("Message",workspace)
